@@ -1,0 +1,80 @@
+@charset 'UTF-8';
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+body {
+    background-color: #F2F2F2;
+    background-image: url(Brasil-BR.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    background-size: 250px;
+    
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    color: #0D0D0D;
+    font-family: 'Amatic SC', cursive;
+}
+table {
+    height: 0px;
+    border-collapse: separate;
+    padding: 4px;
+    
+}
+
+thead {
+    width: 10px;
+}
+
+thead.brasil{
+    width: 100%;
+    height: 130px;
+    font-size: 1em;
+    background-color: #5C7356;
+
+}
+
+tbody {
+    width: 0px;
+}
+
+tfoot {
+    width: 0px;
+}
+
+tr {
+    width: 0px;
+}
+
+td {
+    font-size: 1em;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.150);
+    padding: 15px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #5C7356;
+    font-family: 'Electrolize', sans-serif;
+    color: #F2F2F2;
+    font-size: 20px;
+}
+
+th {
+    font-size: 1em;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.150);
+    padding: 15px;
+    text-align: center;
+    background-color: #8C3A32;
+    color: #F2F2F2;
+    font-size: 25px;
+}
+
+footer{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+}
